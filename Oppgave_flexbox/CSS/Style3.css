@@ -1,0 +1,88 @@
+* {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+
+    background-image: linear-gradient(rgba(26, 26, 26, 0.65), rgba(26, 26, 26, 0.65)), url(../Bilder/mountains_1080p.jpg);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header.sticky .logo
+{
+    color: white;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.5s;
+    font-size: 20px;
+
+}
+header.sticky ul li a
+{
+    color: white;
+}
+a:hover {
+    color: turquoise;
+}
+footer {
+    color:white;
+}
+
+
+
+table {
+    margin: 20px;
+    height: 480px;
+    width: 480px;
+    border-collapse: collapse;
+}
+/* td { 
+    border: 2px solid lightgray;
+
+} */
+.Light_skin {
+    background-color: #E6EFDA;
+}
+.Dark_skin {
+    background-color: #88A7BC;
+}
+.Black {
+    background-color: #020F05;
+}
+.Red {
+    background-color: #FD462B;
+}
+.Eyes {
+    background-color: #082579;
+}
+.Light_green {
+    background-color: #9AFF13;
+}
+.Dark_green {
+    background-color: #6ACA6F;   
+}
+.Cap_white {
+    background-color: #E4EED9;
+}

@@ -1,0 +1,56 @@
+* {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-image: linear-gradient(rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0.2)), url(../Bilder/mountains_1080p.jpg);
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    list-style: none;
+}
+
+a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.5s;
+    font-size: 20px;
+
+}
+
+a:hover {
+    color: turquoise;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+
+}
+
+.text {
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    width: auto;
+}
+
+.ad {
+    position: sticky;
+    left: 75%;
+    margin: 10px;
+    padding: 0;
+    width: 360px;
+    height: 640px;
+}
